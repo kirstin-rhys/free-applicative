@@ -31,6 +31,6 @@ for the data structures designed to mimic the <*> signature.
       (V x) ⊛ f = x <$> f
       (N g) ⊛ f = N $ (flip ($) <$> f ⊛) <$> g
 
-For me at least, the proof of `(N g) ⊛ f` not something I might easily
+For me at least, the proof of `(N g) ⊛ f` is not something I might easily
 figure out or stumble upon.
 
